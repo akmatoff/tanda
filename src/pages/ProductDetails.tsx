@@ -15,11 +15,11 @@ function ProductDetails() {
   return data ? (
     <div>
       <div className="flex flex-col gap-5 lg:flex-row">
-        <div className="flex-[1_1_0%]">
+        <div className="flex-[1_1_10%]">
           <ProductImageCarousel images={data.barcode?.images || []} />
         </div>
 
-        <div className="flex flex-col flex-[1_1_0%] gap-6">
+        <div className="flex flex-col flex-[1_1_10%] gap-6">
           <h1 className="text-[24px] font-bold">{data.barcode?.title}</h1>
 
           <div>

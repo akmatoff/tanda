@@ -22,3 +22,12 @@ export const FOOTER_ELEMENTS_GROUP = [
     elements: ["unokg@gmail.com", "+996 700 000 000", "+996 500 000 000"],
   },
 ];
+
+export const NAV_ELEMENTS = [
+  "Все категории",
+  "Стать продавцом",
+  "О нас",
+  "Курьерам",
+  "Контакты",
+  "Доставка",
+];

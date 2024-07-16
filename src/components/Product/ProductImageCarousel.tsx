@@ -29,6 +29,7 @@ function ProductImageCarousel(props: Props) {
       <div className="hidden md:flex md:flex-col gap-2">
         {images?.map((image, index) => (
           <img
+            key={image?.id}
             src={getImageSource(image?.url || "")}
             className={cn(
               "max-w-[80px] h-[80px] rounded-[4px] flex-shrink-0 border-2",

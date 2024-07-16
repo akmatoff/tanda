@@ -2,7 +2,7 @@ import cn from "classnames";
 
 interface Props {
   text: string;
-  variant: "primary" | "secondary";
+  variant?: "primary" | "secondary";
 }
 
 function Button({ text, variant = "primary" }: Props) {

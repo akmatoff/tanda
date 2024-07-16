@@ -6,7 +6,7 @@ import Menu from "@/assets/burger.svg?react";
 
 function MobileHeader() {
   return (
-    <header className="h-[72px] px-5 flex items-center justify-between lg:hidden">
+    <header className="h-[72px] w-screen px-5 flex items-center justify-between lg:hidden fixed z-10 bg-white">
       <Logo />
 
       <div className="flex gap-5">

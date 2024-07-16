@@ -8,7 +8,7 @@ function App() {
     <>
       <MobileHeader />
       <Header />
-      <main className="px-5 py-6 md:px-[70px] lg:px-[120px] min-h-screen">
+      <main className="px-5 py-28 md:px-[70px] lg:px-[120px] min-h-screen">
         <ProductDetails />
       </main>
       <Footer />

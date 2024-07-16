@@ -15,7 +15,7 @@ function ProductDetails() {
   return data ? (
     <div>
       <div className="flex flex-col gap-5 lg:flex-row">
-        <div className="flex-[2_1_0%]">
+        <div className="flex-[1_1_0%]">
           <ProductImageCarousel images={data.barcode?.images || []} />
         </div>
 

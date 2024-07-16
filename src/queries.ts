@@ -2,7 +2,7 @@ import { gql } from "@apollo/client";
 
 export const GET_PRODUCT_DETAILS = gql`
   query Barcode {
-    barcode(id: 365) {
+    barcode(id: 354) {
       id
       barcodeValue
       title

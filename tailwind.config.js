@@ -11,7 +11,8 @@ export default {
         "primary": "#1e90ff",
         "primary-light": "#E9F4FF",
         "placeholder": "#B0B0B0",
-        "gray": "#757575"
+        "gray": "#757575",
+        "badge": "#DEDEDE"
       },
       borderRadius: {
         "primary": "16px"

@@ -1,10 +1,9 @@
 import { useQuery } from "@apollo/client";
 import { GET_PRODUCT_DETAILS } from "../queries";
 import { BarcodeQuery } from "@/__generated__/graphql";
-import ProductBottomCTA from "@/components/ProductBottomCTA";
-import Button from "@/components/Button";
-import ProductImageCarousel from "@/components/ProductImageCarousel";
-import ProductCTA from "@/components/ProductCTA";
+import ProductBottomCTA from "@/components/Product/ProductBottomCTA";
+import ProductImageCarousel from "@/components/Product/ProductImageCarousel";
+import ProductCTA from "@/components/Product/ProductCTA";
 
 function ProductDetails() {
   const { loading, error, data } = useQuery<BarcodeQuery>(GET_PRODUCT_DETAILS);

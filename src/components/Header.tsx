@@ -5,7 +5,7 @@ import SearchBar from "./SearchBar";
 
 function Header() {
   return (
-    <header className="h-[72px] px-5 items-center justify-between bg-secondary hidden lg:flex">
+    <header className="h-[72px] px-32 items-center justify-between bg-secondary hidden lg:flex">
       <Logo />
 
       <SearchBar />

@@ -9,7 +9,9 @@ export default {
       colors: {
         "secondary": "#f5f5f5",
         "primary": "#1e90ff",
-        "placeholder": "#B0B0B0"
+        "primary-light": "#E9F4FF",
+        "placeholder": "#B0B0B0",
+        "gray": "#757575"
       },
       borderRadius: {
         "primary": "16px"

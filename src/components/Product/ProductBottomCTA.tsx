@@ -7,7 +7,7 @@ interface Props {
 
 function ProductBottomCTA({ sellingPrice, discountedPrice }: Props) {
   return (
-    <div className="flex items-center justify-between w-screen h-[76px] px-5 md:px-40 lg:hidden fixed bottom-0 left-0 border-t border-secondary">
+    <div className="flex items-center justify-between w-screen h-[76px] px-5 md:px-40 lg:hidden fixed bottom-0 left-0 border-t border-secondary bg-white">
       <div>
         <div className="text-primary font-bold text-[16px]">
           {sellingPrice} сом

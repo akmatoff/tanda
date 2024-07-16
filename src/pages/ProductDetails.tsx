@@ -5,6 +5,7 @@ import ProductBottomCTA from "@/components/Product/ProductBottomCTA";
 import ProductImageCarousel from "@/components/Product/ProductImageCarousel";
 import ProductCTA from "@/components/Product/ProductCTA";
 import ReviewsBadge from "@/components/Product/ReviewsBadge";
+import Reviews from "@/components/Reviews/Rewiews";
 
 function ProductDetails() {
   const { loading, error, data } = useQuery<BarcodeQuery>(GET_PRODUCT_DETAILS);
@@ -36,6 +37,8 @@ function ProductDetails() {
           </section>
 
           <h3 className="text-[16px] underline">Смотреть характеристики</h3>
+
+          <Reviews />
         </div>
 
         <div className="flex-[1_1_0%]">

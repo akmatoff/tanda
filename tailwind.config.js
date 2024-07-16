@@ -12,12 +12,15 @@ export default {
         "primary-light": "#E9F4FF",
         "placeholder": "#B0B0B0",
         "gray": "#757575",
-        "badge": "#DEDEDE"
+        "badge": "#DEDEDE",
+        "avatar": "#D9D9D9"
       },
       borderRadius: {
         "primary": "16px"
       }
     },
   },
-  plugins: [],
+  plugins: [
+    import('@tailwindcss/line-clamp')
+  ],
 }

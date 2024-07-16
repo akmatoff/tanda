@@ -8,7 +8,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    "types": ["node"],
+    "types": ["node", "vite-plugin-svgr/client", "vite/client"],
 
 
     "paths": {

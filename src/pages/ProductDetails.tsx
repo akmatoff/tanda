@@ -4,6 +4,7 @@ import { BarcodeQuery } from "@/__generated__/graphql";
 import ProductBottomCTA from "@/components/Product/ProductBottomCTA";
 import ProductImageCarousel from "@/components/Product/ProductImageCarousel";
 import ProductCTA from "@/components/Product/ProductCTA";
+import ReviewsBadge from "@/components/Product/ReviewsBadge";
 
 function ProductDetails() {
   const { loading, error, data } = useQuery<BarcodeQuery>(GET_PRODUCT_DETAILS);
@@ -15,17 +16,24 @@ function ProductDetails() {
   return data ? (
     <div>
       <div className="flex flex-col gap-5 lg:flex-row">
-        <div className="flex-[1_1_10%]">
+        <section className="flex-[1_1_10%]">
           <ProductImageCarousel images={data.barcode?.images || []} />
-        </div>
+        </section>
 
         <div className="flex flex-col flex-[1_1_10%] gap-6">
           <h1 className="text-[24px] font-bold">{data.barcode?.title}</h1>
 
-          <div>
+          <section>
+            <h1 className="text-lg">Название магазина</h1>
+            <p className="text-md text-gray">Бренд</p>
+          </section>
+
+          <ReviewsBadge rating={4.9} reviewsCount={10} />
+
+          <section>
             <h1 className="text-lg font-semibold">Описание</h1>
             <p>{data.barcode?.description}</p>
-          </div>
+          </section>
 
           <h3 className="text-[16px] underline">Смотреть характеристики</h3>
         </div>

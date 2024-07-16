@@ -33,9 +33,7 @@ function ProductImageCarousel(props: Props) {
             src={getImageSource(image?.url || "")}
             className={cn(
               "max-w-[80px] h-[80px] rounded-[4px] flex-shrink-0 border-2",
-              index === currentIndex
-                ? "border-2 border-primary"
-                : "border-transparent"
+              index === currentIndex ? "border-primary" : "border-transparent"
             )}
             onClick={() => handleImageClick(index)}
           />
@@ -44,7 +42,7 @@ function ProductImageCarousel(props: Props) {
       <div className="bg-secondary rounded-primary relative max-w-[500px]">
         <img
           src={getImageSource(images?.[currentIndex]?.url || "")}
-          className="max-h-[560px] rounded-primary object-contain"
+          className="max-h-[560px] rounded-primary"
         />
 
         <CarouselLengthBadge current={1} length={images?.length || 0} />

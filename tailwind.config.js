@@ -10,6 +10,9 @@ export default {
         "secondary": "#f5f5f5",
         "primary": "#1e90ff",
         "placeholder": "#B0B0B0"
+      },
+      borderRadius: {
+        "primary": "16px"
       }
     },
   },

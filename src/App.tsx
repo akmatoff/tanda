@@ -7,7 +7,9 @@ function App() {
     <>
       <MobileHeader />
       <Header />
-      <ProductDetails />
+      <main className="px-5 py-6 md:px-[70px] lg:px-[120px]">
+        <ProductDetails />
+      </main>
     </>
   );
 }

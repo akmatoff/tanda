@@ -17,7 +17,7 @@ function Reviews() {
         <span className="ml-5 text-gray">60 отзывов</span>
       </div>
 
-      <div className="flex gap-4 overflow-x-scroll">
+      <div className="flex gap-4 overflow-x-scroll no-scrollbarc">
         {MOCK_REVIEWS.map((review, index) => (
           <div>
             <ReviewCard

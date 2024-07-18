@@ -48,3 +48,38 @@ export const MOCK_REVIEWS = [
       "Машинка пришла целая в заводской упаковки. Стирает мелкие вещи, полоскание в ней не очень понравилось и отжим слабый.По сути отжим в ней это просто кружение.",
   },
 ];
+
+export const MOCK_PRODUCTS = [
+  {
+    id: 1,
+    title: "Jack JK - F4",
+    category: "Стиральная машина",
+    rate: 0,
+    reviewsCount: 0,
+    price: 50900,
+  },
+  {
+    id: 2,
+    title: "Jack JK - F4",
+    category: "Стиральная машина",
+    rate: 0,
+    reviewsCount: 0,
+    price: 50900,
+  },
+  {
+    id: 3,
+    title: "Jack JK - F4",
+    category: "Стиральная машина",
+    rate: 3,
+    reviewsCount: 10,
+    price: 50900,
+  },
+  {
+    id: 4,
+    title: "Jack JK - F4",
+    category: "Стиральная машина",
+    rate: 0,
+    reviewsCount: 0,
+    price: 50900,
+  },
+];

@@ -19,7 +19,7 @@ function ProductDetails() {
   if (error) return <div>Ошибка</div>;
 
   return data ? (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-20">
       <div className="flex flex-col gap-5 lg:flex-row">
         <section className="flex-[1_1_10%]">
           <ProductImageCarousel images={data.barcode?.images || []} />

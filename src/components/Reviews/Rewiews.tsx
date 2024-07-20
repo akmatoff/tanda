@@ -39,7 +39,7 @@ function Reviews() {
         ))}
       </div>
 
-      <div>
+      <div className="hidden lg:block">
         <Button text="Смотреть все отзывы" variant="secondary" />
       </div>
     </section>

@@ -1,6 +1,6 @@
-export const BASE_URL = "https://api.uno.kg/";
-export const API_GRAPHQL = "https://api.uno.kg/graphql/";
-export const IMAGE_URL = "https://uno.kg/_next/image?url=";
+export const BASE_URL = "https://api.tanda.kg/";
+export const API_GRAPHQL = "https://api.tanda.kg/graphql/";
+export const IMAGE_URL = "https://tanda.kg/_next/image?url=";
 
 export const FOOTER_ELEMENTS_GROUP = [
   {

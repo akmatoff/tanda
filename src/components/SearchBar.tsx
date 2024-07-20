@@ -1,4 +1,4 @@
-import Search from "@/assets/search.svg?react";
+import Search from "@/assets/search-gray.svg?react";
 
 function SearchBar() {
   return (
